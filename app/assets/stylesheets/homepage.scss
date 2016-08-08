@@ -47,14 +47,54 @@
 }
 .projects {
   background-color: #f9ca67;
-  margin-top: 3em;
   padding-bottom: 3em;
   padding-top: 1em;
 }
 
 .sponsors {
-  background-color: #f9ca67;
-  margin-top: 3em;
   padding-bottom: 3em;
   padding-top: 1em;
+}
+
+.organizers {
+  background-color: #f9ca67;
+  padding-bottom: 3em;
+  padding-top: 1em;
+    table {
+      display: inline;
+      border-bottom: 1px solid;
+      th {
+        padding: 1em;
+      }
+    }
+}
+
+.What_to_bring {
+  padding-bottom: 3em;
+  padding-top: 1em;
+}
+
+
+
+//BUTTON
+
+.buttons {
+	background-color:#80ccff;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+}
+.buttons:hover {
+	background-color:#4db8ff;
+}
+.buttons:active {
+	position:relative;
+	top:1px;
 }
