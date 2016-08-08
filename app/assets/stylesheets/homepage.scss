@@ -18,6 +18,7 @@
   height: 100px;
   width: 100%;
   background-color: white;
+  text-align: justify;
 }
 
 .content {
@@ -41,9 +42,11 @@
 }
 
 .information {
-  margin-left: 8px;
-  margin-right: 8px;
   text-align: center;
+    p {
+      margin-left: 7em;
+      margin-right: 7em;
+    }
 }
 .projects {
   background-color: #f9ca67;
