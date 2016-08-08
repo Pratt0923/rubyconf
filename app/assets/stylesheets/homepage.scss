@@ -7,7 +7,7 @@
   height:100vh;
   width: 100%;
   opacity: 1;
-  background-color: #f9ca67;
+  background-color: #6d6ea5;
   top: 0;
   display: table;
   z-index: 0;
@@ -30,6 +30,7 @@
 
   .name {
     font-size: 10em;
+    color: white;
     margin: 0;
   }
 
@@ -41,48 +42,30 @@
   }
 }
 
-.information {
+.orange {
+  background-color: #f9ca67;
+  padding-bottom: 3em;
+  padding-top: 1em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.white {
+  padding-bottom: 3em;
+  padding-top: 1em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.largeFont {
+  font-size: 4em;
   text-align: center;
-    p {
-      margin-left: 7em;
-      margin-right: 7em;
-    }
+  margin-bottom: 0;
 }
-.projects {
-  background-color: #f9ca67;
-  padding-bottom: 3em;
-  padding-top: 1em;
-}
-
-.sponsors {
-  padding-bottom: 3em;
-  padding-top: 1em;
-}
-
-.organizers {
-  background-color: #f9ca67;
-  padding-bottom: 3em;
-  padding-top: 1em;
-    table {
-      display: inline;
-      border-bottom: 1px solid;
-      th {
-        padding: 1em;
-      }
-    }
-}
-
-.What_to_bring {
-  padding-bottom: 3em;
-  padding-top: 1em;
-}
-
 
 
 //BUTTON
 
 .buttons {
-	background-color:#80ccff;
+	background-color:#d0d2fe;
 	-moz-border-radius:28px;
 	-webkit-border-radius:28px;
 	border-radius:28px;
@@ -95,9 +78,74 @@
 	text-decoration:none;
 }
 .buttons:hover {
-	background-color:#4db8ff;
+	background-color:#bbcdc6;
 }
 .buttons:active {
 	position:relative;
 	top:1px;
 }
+
+// TABS
+/*----- Tabs -----*/
+.tabs {
+    width:100%;
+    display:inline-block;
+    text-align:center;
+}
+
+    /*----- Tab Links -----*/
+    /* Clearfix */
+    .tab-links:after {
+        display:block;
+        clear:both;
+        content:'';
+    }
+
+    .tab-links li {
+        margin:0px 5px;
+        float:none;
+        list-style:none;
+        display: inline;
+    }
+
+        .tab-links a {
+            padding:20px 25px;
+            display:inline-block;
+            border-radius:3px 3px 0px 0px;
+            background:#6d6ea5;
+            font-size:16px;
+            font-weight:600;
+            color:white;
+            margin-left: 3em;
+            margin-right: 3em;
+            text-decoration: none;
+            transition:all linear 0.15s;
+        }
+
+        .tab-links a:hover {
+            background:#a7cce5;
+            text-decoration:none;
+        }
+
+    li.active a, li.active a:hover {
+        background:#fff;
+        color:#4c4c4c;
+    }
+
+    /*----- Content of Tabs -----*/
+    .tab-content {
+        padding:15px;
+        border-radius:3px;
+        box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+        background:#fff;
+        text-align:justify;;
+
+    }
+
+        .tab {
+            display:none;
+        }
+
+        .tab.active {
+            display:block;
+        }
