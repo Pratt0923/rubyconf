@@ -13,7 +13,7 @@
         </div>
         <div class="biginfo">
           <p class="dates">dates XX - XX 2016/2017</p>
-          <p class="name">RUBYCONF</p>
+          <p class="name">RUBY NC</p>
           <a href="#", class="buttons">Join us!</a>
         </div>
       </div>
@@ -37,34 +37,47 @@
     <ul class="tab-links">
         <li class="active"><a href="#tab1">About</a></li>
         <li><a href="#tab2">What to Bring</a></li>
-        <li><a href="#tab3">Directions</a></li>
         <li><a href="#tab4">Sponsors</a></li>
     </ul>
 
     <div class="tab-content">
         <div id="tab1" class="tab active">
             <p>Tab #1 content goes here!</p>
-            <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis.</p>
-        </div>
+            <p>
+              About Ruby NConf info goes here
+            </p>
+   </div>
 
         <div id="tab2" class="tab">
             <p>Tab #2 content goes here!</p>
-            <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis. In hac habitasse platea dictumst. Ut euismod tempus hendrerit. Morbi ut adipiscing nisi. Etiam rutrum sodales gravida! Aliquam tellus orci, iaculis vel.</p>
-        </div>
-
-        <div id="tab3" class="tab">
-            <p>Tab #3 content goes here!</p>
-            <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum ri.</p>
+            <p>
+              what to bring with you info goes here
+            </p>
         </div>
 
         <div id="tab4" class="tab">
             <p>Tab #4 content goes here!</p>
-            <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis. In hac habitasse platea dictumst. Ut euismod tempus hendrerit. Morbi ut adipiscing nisi. Etiam rutrum sodales gravida! Aliquam tellus orci, iaculis vel.</p>
+            <p>
+              information about our sponsors when we get them go here
+            </p>
+            <a href="#" class="buttons">Become a Sponsor</a>
         </div>
     </div>
 </div>
 
+<div id="floating-panel">
+  <select id="mode">
+    <option value="DRIVING">Driving</option>
+    <option value="WALKING">Walking</option>
+    <option value="BICYCLING">Bicycling</option>
+    <option value="TRANSIT">Transit</option>``
+  </select>
+</div>
+<div id="map"></div>
 
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJh1HtXl2x_IC54PoCH4qKYwhsxKNkAhs&callback=initMap">
+</script>
 
 </body>
 </html>
